@@ -1,0 +1,8 @@
+# NEVER deploy internal state to the public Pages repo (Ozem+ CLAUDE.md leak lesson)
+CLAUDE.md
+KEYWORDS.md
+backlinks-log.json
+STRATEGY.md
+scratchpad/
+*.log
+.DS_Store

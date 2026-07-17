@@ -1,0 +1,6 @@
+# STAGING PREVIEW — do not index the github.io preview URL.
+# At launch on tryretafit.com this is swapped for the production robots.txt
+# (Allow: /, Disallow: /go/ /de/go/ /da/go/ /no/go/ /fr/go/, AI crawlers welcome,
+#  Sitemap: https://tryretafit.com/sitemap.xml).
+User-agent: *
+Disallow: /
