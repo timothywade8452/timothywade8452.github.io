@@ -222,6 +222,11 @@ footer .disc{flex:1 1 100%;color:#7e8f97;font-size:12.5px;line-height:1.65;margi
 .starline{display:inline-flex;align-items:center;gap:9px;background:var(--pane);border:1px solid var(--line);border-radius:999px;padding:7px 14px;box-shadow:var(--shadow-sm)}
 .starline .stars{font-size:16px}.starline b{font-size:15px}.starline span{color:var(--faint);font-size:13px}
 
+/* two-column split that stacks on mobile */
+.split2{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;margin:6px 0}
+@media(max-width:720px){.split2{grid-template-columns:1fr;gap:18px}}
+.split2 .shot{width:100%;border-radius:18px;box-shadow:var(--shadow);object-fit:cover;max-height:360px}
+
 /* hero upgrade */
 .hero{position:relative;overflow:hidden}
 .hero::after{content:"";position:absolute;right:-8%;bottom:-40%;width:420px;height:420px;border-radius:50%;
