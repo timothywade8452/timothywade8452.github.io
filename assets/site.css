@@ -48,7 +48,7 @@ h1 .hl{color:var(--cta)}
 .hero-img{background:var(--pane);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:18px;position:relative;overflow:hidden}
 .hero-img::before{content:"";position:absolute;inset:-40% 30% auto -20%;height:200px;background:radial-gradient(circle,var(--brand-tint),transparent 70%);opacity:.7}
 .hero-img img{position:relative;margin:0 auto;max-height:300px;width:auto}
-.disc-badge{position:absolute;top:14px;right:14px;background:var(--cta);color:#fff;font-weight:800;font-size:14px;padding:8px 12px;border-radius:12px;box-shadow:0 6px 16px rgba(229,67,126,.35);transform:rotate(4deg)}
+.disc-badge{position:absolute;top:14px;right:14px;background:var(--cta);color:#fff;font-weight:800;font-size:14px;padding:8px 12px;border-radius:12px;box-shadow:0 6px 16px rgba(240,96,58,.35);transform:rotate(4deg)}
 
 /* ---------- CTA ---------- */
 .cta{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:linear-gradient(135deg,var(--cta),var(--cta2));color:#fff;
@@ -98,7 +98,7 @@ ul.check li::before{content:"✓";position:absolute;left:3px;top:9px;color:var(-
 .pack .per{color:var(--faint);font-size:13.5px;margin:2px 0 8px}
 .pack .price{font-size:27px;font-weight:840;letter-spacing:-.02em}
 .pack .old{color:var(--faint);text-decoration:line-through;font-size:15px;margin-left:6px;font-weight:600}
-.pack .save{display:inline-block;margin:8px 0 14px;background:#fdeaf1;color:var(--cta2);font-weight:750;font-size:13px;padding:4px 10px;border-radius:8px}
+.pack .save{display:inline-block;margin:8px 0 14px;background:#fdece6;color:var(--cta2);font-weight:750;font-size:13px;padding:4px 10px;border-radius:8px}
 .pack .ship{color:var(--grn);font-size:13px;font-weight:650;margin-top:8px}
 
 /* faq */
@@ -126,7 +126,7 @@ ul.check li::before{content:"✓";position:absolute;left:3px;top:9px;color:var(-
 .cmp thead th{background:var(--brand-tint);color:var(--brand2);font-size:13.5px}
 .cmp td.y{color:var(--grn);font-weight:700}
 .cmp td.n{color:var(--faint)}
-.cmp tr.hi{background:#fdeaf1}
+.cmp tr.hi{background:#fdf0ea}
 .cmp tr:last-child td{border-bottom:0}
 .cmp-wrap{overflow-x:auto}
 
