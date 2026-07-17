@@ -54,12 +54,11 @@
     document.body.style.overflow = "";
   }
 
-  // close controls (still dismissable for now)
+  // close controls — ONLY the explicit dismiss link closes it.
+  // Clicking the backdrop/rest of the screen does NOT dismiss (locked, per spec).
   document.addEventListener("click", function (e) {
     if (e.target.closest("[data-close]")) { e.preventDefault(); hide(); }
-    else if (e.target.classList && e.target.classList.contains("pop-ov")) { hide(); }
   });
-  document.addEventListener("keydown", function (e) { if (e.key === "Escape") hide(); });
 
   // (1) EXIT-INTENT — the mouse leaves the browser window (any edge). Re-arms after each close,
   //     so for organic it pops every single time the pointer leaves.

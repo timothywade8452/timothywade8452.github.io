@@ -22,4 +22,19 @@
   }
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
+
+  // gentle scroll-reveal for elements marked .reveal (blur-up in place)
+  try {
+    var els = document.querySelectorAll(".reveal");
+    if ("IntersectionObserver" in window && els.length) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); }
+        });
+      }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+      els.forEach(function (el) { io.observe(el); });
+    } else {
+      els.forEach(function (el) { el.classList.add("in"); });
+    }
+  } catch (e) {}
 })();
