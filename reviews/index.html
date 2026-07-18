@@ -47,29 +47,73 @@
       ]
     },
     {
-      "@type": "Review",
-      "itemReviewed": {
-        "@type": "Product",
-        "name": "RetaFit",
-        "image": "https://tryretafit.com/assets/img/bottle.webp",
-        "brand": {
-          "@type": "Brand",
-          "name": "RetaFit"
+      "@type": "Product",
+      "name": "RetaFit",
+      "image": "https://tryretafit.com/assets/img/bottle.webp",
+      "brand": {
+        "@type": "Brand",
+        "name": "RetaFit"
+      },
+      "category": "Dietary supplement",
+      "description": "RetaFit is a 100% natural, vegan daily metabolism-support capsule.",
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.7",
+          "bestRating": "5"
         },
-        "category": "Dietary supplement",
-        "description": "RetaFit is a 100% natural, vegan daily metabolism-support capsule."
+        "author": {
+          "@type": "Organization",
+          "name": "RetaFit editorial"
+        },
+        "datePublished": "2026-07-17",
+        "reviewBody": "RetaFit is an easy, clean daily metabolism capsule — vegan, 100% natural, produced to European standards, with transparent one-time pricing, secure checkout and a 30-day money-back guarantee. A simple, low-risk way to support metabolism and energy."
       },
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "4.7",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Organization",
-        "name": "RetaFit editorial"
-      },
-      "datePublished": "2026-07-17",
-      "reviewBody": "RetaFit is an easy, clean daily metabolism capsule — vegan, 100% natural, produced to European standards, with transparent one-time pricing, secure checkout and a 30-day money-back guarantee. A simple, low-risk way to support metabolism and energy."
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "GBP",
+        "lowPrice": "73.85",
+        "highPrice": "129.00",
+        "offerCount": "3",
+        "availability": "https://schema.org/InStock",
+        "url": "https://tryretafit.com/buy/",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "4.95",
+            "currency": "GBP"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "GB"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": "1",
+              "maxValue": "2",
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": "3",
+              "maxValue": "7",
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "GB",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": "30",
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
+      }
     },
     {
       "@type": "FAQPage",

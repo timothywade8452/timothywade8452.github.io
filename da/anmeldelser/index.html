@@ -47,29 +47,73 @@
       ]
     },
     {
-      "@type": "Review",
-      "itemReviewed": {
-        "@type": "Product",
-        "name": "RetaFit",
-        "image": "https://tryretafit.com/assets/img/bottle.webp",
-        "brand": {
-          "@type": "Brand",
-          "name": "RetaFit"
+      "@type": "Product",
+      "name": "RetaFit",
+      "image": "https://tryretafit.com/assets/img/bottle.webp",
+      "brand": {
+        "@type": "Brand",
+        "name": "RetaFit"
+      },
+      "category": "Dietary supplement",
+      "description": "RetaFit er en 100% naturlig, vegansk daglig kapsel til stofskiftet.",
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.7",
+          "bestRating": "5"
         },
-        "category": "Dietary supplement",
-        "description": "RetaFit er en 100% naturlig, vegansk daglig kapsel til stofskiftet."
+        "author": {
+          "@type": "Organization",
+          "name": "RetaFit editorial"
+        },
+        "datePublished": "2026-07-17",
+        "reviewBody": "RetaFit er en nem, ren daglig kapsel til stofskiftet — vegansk, 100% naturlig, produceret efter europæiske standarder, med gennemsigtig engangspris, sikker betaling og en 30 dages pengene-tilbage-garanti. En enkel, risikofri måde at understøtte stofskifte og energi på."
       },
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "4.7",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Organization",
-        "name": "RetaFit editorial"
-      },
-      "datePublished": "2026-07-17",
-      "reviewBody": "RetaFit er en nem, ren daglig kapsel til stofskiftet — vegansk, 100% naturlig, produceret efter europæiske standarder, med gennemsigtig engangspris, sikker betaling og en 30 dages pengene-tilbage-garanti. En enkel, risikofri måde at understøtte stofskifte og energi på."
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "DKK",
+        "lowPrice": "789",
+        "highPrice": "1245",
+        "offerCount": "3",
+        "availability": "https://schema.org/InStock",
+        "url": "https://tryretafit.com/da/koeb/",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "40",
+            "currency": "DKK"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "DK"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": "1",
+              "maxValue": "2",
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": "3",
+              "maxValue": "7",
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "DK",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": "30",
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
+      }
     },
     {
       "@type": "FAQPage",

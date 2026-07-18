@@ -29,26 +29,161 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Start", "item": "https://tryretafit.com/de/" },
-      { "@type": "ListItem", "position": 2, "name": "RetaFit Erfahrungen", "item": "https://tryretafit.com/de/erfahrungen/" } ] },
-    { "@type": "Review",
-      "itemReviewed": { "@type": "Product", "name": "RetaFit", "image": "https://tryretafit.com/assets/img/bottle.webp",
-        "brand": { "@type": "Brand", "name": "RetaFit" }, "category": "Nahrungsergänzungsmittel",
-        "description": "RetaFit ist eine 100 % natürliche, vegane Tageskapsel zur Unterstützung des Stoffwechsels." },
-      "reviewRating": { "@type": "Rating", "ratingValue": "4.7", "bestRating": "5" },
-      "author": { "@type": "Organization", "name": "RetaFit editorial" }, "datePublished": "2026-07-17",
-      "reviewBody": "RetaFit ist eine einfache, saubere Tageskapsel für den Stoffwechsel — vegan, 100 % natürlich, nach europäischen Standards hergestellt, mit transparenten Einmalpreisen, sicherem Checkout und einer 30 Tage Geld-zurück-Garantie. Eine einfache, risikoarme Möglichkeit, Stoffwechsel und Energie zu unterstützen." },
-    { "@type": "FAQPage", "mainEntity": [
-      { "@type": "Question", "name": "Ist RetaFit seriös?", "acceptedAnswer": { "@type": "Answer", "text": "Ja. RetaFit ist ein echtes Produkt, das über den offiziellen Shop verkauft wird — mit sicherem, verschlüsseltem Checkout, klaren Einmalpreisen (kein verstecktes Abo) und einer 30 Tage Geld-zurück-Garantie. Es wird in Deutschland, Österreich, der Schweiz und der übrigen EU geliefert." } },
-      { "@type": "Question", "name": "Ist RetaFit Betrug oder Abzocke?", "acceptedAnswer": { "@type": "Answer", "text": "Nein — RetaFit ist kein Fake und keine Abzocke: ein echtes Produkt mit transparenter Einmalzahlung (kein verstecktes Abo) und einer 30 Tage Geld-zurück-Garantie. Das echte Risiko sind Kopien und Marktplatz-Weiterverkäufer auf Amazon, eBay & Co. — bestelle deshalb ausschließlich im offiziellen Shop." } },
-      { "@type": "Question", "name": "Was schätzen Menschen an RetaFit?", "acceptedAnswer": { "@type": "Answer", "text": "Dass es 100 % natürlich und vegan ist, dass es nur eine einfache Kapsel pro Tag ist, dass es ein Einmalkauf ohne Abo ist und dass es durch eine 30 Tage Geld-zurück-Garantie abgesichert ist." } },
-      { "@type": "Question", "name": "Ist RetaFit sicher?", "acceptedAnswer": { "@type": "Answer", "text": "RetaFit ist ein Nahrungsergänzungsmittel aus natürlichen Zutaten, hergestellt nach strengen europäischen Standards. Es enthält Koffein und ist daher nicht für Kinder oder Schwangere/Stillende geeignet; wenn du eine Erkrankung hast oder Medikamente einnimmst, sprich zuerst mit einem Arzt." } },
-      { "@type": "Question", "name": "War RetaFit in der Höhle der Löwen?", "acceptedAnswer": { "@type": "Answer", "text": "Wir kommentieren den Höhle-der-Löwen-Hype nicht — wir bestätigen ihn weder, noch dementieren wir ihn, und wir machen keine TV-basierten Werbeaussagen. Beurteile RetaFit anhand der Inhaltsstoffe, der transparenten Einmalzahlung und der 30 Tage Geld-zurück-Garantie. Unsere vollständige Position liest du im Höhle-der-Löwen-Faktencheck." } },
-      { "@type": "Question", "name": "Retatrutide Erfahrungen — was ist dran?", "acceptedAnswer": { "@type": "Answer", "text": "Ehrliche Einordnung: Retatrutide Erfahrungen aus Studien und Foren betreffen das Medikament — eine Injektion, die sich noch in klinischen Studien befindet, nicht zugelassen und nicht frei erhältlich ist. RetaFit ist ein anderes, natürliches Produkt: eine legale, rezeptfreie Kapsel, kein Medikament. Beurteile RetaFit deshalb an seinen eigenen Stärken — Inhaltsstoffe, Einmalzahlung, 30-Tage-Garantie." } },
-      { "@type": "Question", "name": "Was liest man in Foren über RetaFit?", "acceptedAnswer": { "@type": "Answer", "text": "RetaFit ist eine noch junge Marke, deshalb gibt es bislang nur wenige unabhängige Foren-Threads. Statt auf anonyme Beiträge zu warten, beurteile RetaFit am besten anhand der überprüfbaren Fakten: 100 % natürliche Inhaltsstoffe, transparente Einmalzahlung ohne Abo und eine 30 Tage Geld-zurück-Garantie, mit der du es ohne Risiko selbst testen kannst." } },
-      { "@type": "Question", "name": "Hilft RetaFit beim Abnehmen?", "acceptedAnswer": { "@type": "Answer", "text": "RetaFit verspricht keine Abnehm-Wunder — und genau das ist der seriöse Ansatz. Als tägliche Routine unterstützt RetaFit dein Gewichtsmanagement, den normalen Energiestoffwechsel und den Fettstoffwechsel — kombiniert mit einer ausgewogenen Ernährung und einem aktiven Lebensstil. Eine Kapsel pro Tag, als fester Baustein deiner Routine." } }
-    ]}
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Start",
+          "item": "https://tryretafit.com/de/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "RetaFit Erfahrungen",
+          "item": "https://tryretafit.com/de/erfahrungen/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "name": "RetaFit",
+      "image": "https://tryretafit.com/assets/img/bottle.webp",
+      "brand": {
+        "@type": "Brand",
+        "name": "RetaFit"
+      },
+      "category": "Nahrungsergänzungsmittel",
+      "description": "RetaFit ist eine 100 % natürliche, vegane Tageskapsel zur Unterstützung des Stoffwechsels.",
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.7",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "RetaFit editorial"
+        },
+        "datePublished": "2026-07-17",
+        "reviewBody": "RetaFit ist eine einfache, saubere Tageskapsel für den Stoffwechsel — vegan, 100 % natürlich, nach europäischen Standards hergestellt, mit transparenten Einmalpreisen, sicherem Checkout und einer 30 Tage Geld-zurück-Garantie. Eine einfache, risikoarme Möglichkeit, Stoffwechsel und Energie zu unterstützen."
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "EUR",
+        "lowPrice": "73.85",
+        "highPrice": "129.00",
+        "offerCount": "3",
+        "availability": "https://schema.org/InStock",
+        "url": "https://tryretafit.com/de/kaufen/",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "4.95",
+            "currency": "EUR"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "DE"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": "1",
+              "maxValue": "2",
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": "3",
+              "maxValue": "7",
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "DE",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": "30",
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ist RetaFit seriös?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. RetaFit ist ein echtes Produkt, das über den offiziellen Shop verkauft wird — mit sicherem, verschlüsseltem Checkout, klaren Einmalpreisen (kein verstecktes Abo) und einer 30 Tage Geld-zurück-Garantie. Es wird in Deutschland, Österreich, der Schweiz und der übrigen EU geliefert."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist RetaFit Betrug oder Abzocke?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein — RetaFit ist kein Fake und keine Abzocke: ein echtes Produkt mit transparenter Einmalzahlung (kein verstecktes Abo) und einer 30 Tage Geld-zurück-Garantie. Das echte Risiko sind Kopien und Marktplatz-Weiterverkäufer auf Amazon, eBay & Co. — bestelle deshalb ausschließlich im offiziellen Shop."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was schätzen Menschen an RetaFit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dass es 100 % natürlich und vegan ist, dass es nur eine einfache Kapsel pro Tag ist, dass es ein Einmalkauf ohne Abo ist und dass es durch eine 30 Tage Geld-zurück-Garantie abgesichert ist."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist RetaFit sicher?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RetaFit ist ein Nahrungsergänzungsmittel aus natürlichen Zutaten, hergestellt nach strengen europäischen Standards. Es enthält Koffein und ist daher nicht für Kinder oder Schwangere/Stillende geeignet; wenn du eine Erkrankung hast oder Medikamente einnimmst, sprich zuerst mit einem Arzt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "War RetaFit in der Höhle der Löwen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wir kommentieren den Höhle-der-Löwen-Hype nicht — wir bestätigen ihn weder, noch dementieren wir ihn, und wir machen keine TV-basierten Werbeaussagen. Beurteile RetaFit anhand der Inhaltsstoffe, der transparenten Einmalzahlung und der 30 Tage Geld-zurück-Garantie. Unsere vollständige Position liest du im Höhle-der-Löwen-Faktencheck."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Retatrutide Erfahrungen — was ist dran?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ehrliche Einordnung: Retatrutide Erfahrungen aus Studien und Foren betreffen das Medikament — eine Injektion, die sich noch in klinischen Studien befindet, nicht zugelassen und nicht frei erhältlich ist. RetaFit ist ein anderes, natürliches Produkt: eine legale, rezeptfreie Kapsel, kein Medikament. Beurteile RetaFit deshalb an seinen eigenen Stärken — Inhaltsstoffe, Einmalzahlung, 30-Tage-Garantie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was liest man in Foren über RetaFit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RetaFit ist eine noch junge Marke, deshalb gibt es bislang nur wenige unabhängige Foren-Threads. Statt auf anonyme Beiträge zu warten, beurteile RetaFit am besten anhand der überprüfbaren Fakten: 100 % natürliche Inhaltsstoffe, transparente Einmalzahlung ohne Abo und eine 30 Tage Geld-zurück-Garantie, mit der du es ohne Risiko selbst testen kannst."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hilft RetaFit beim Abnehmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RetaFit verspricht keine Abnehm-Wunder — und genau das ist der seriöse Ansatz. Als tägliche Routine unterstützt RetaFit dein Gewichtsmanagement, den normalen Energiestoffwechsel und den Fettstoffwechsel — kombiniert mit einer ausgewogenen Ernährung und einem aktiven Lebensstil. Eine Kapsel pro Tag, als fester Baustein deiner Routine."
+          }
+        }
+      ]
+    }
   ]
 }
 </script>

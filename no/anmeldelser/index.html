@@ -29,26 +29,161 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Hjem", "item": "https://tryretafit.com/no/" },
-      { "@type": "ListItem", "position": 2, "name": "RetaFit Erfaringer", "item": "https://tryretafit.com/no/anmeldelser/" } ] },
-    { "@type": "Review",
-      "itemReviewed": { "@type": "Product", "name": "RetaFit", "image": "https://tryretafit.com/assets/img/bottle.webp",
-        "brand": { "@type": "Brand", "name": "RetaFit" }, "category": "Dietary supplement",
-        "description": "RetaFit er en 100 % naturlig, vegansk daglig forbrenningskapsel." },
-      "reviewRating": { "@type": "Rating", "ratingValue": "4.7", "bestRating": "5" },
-      "author": { "@type": "Organization", "name": "RetaFit editorial" }, "datePublished": "2026-07-17",
-      "reviewBody": "RetaFit er en enkel, ren daglig forbrenningskapsel — vegansk, 100 % naturlig, produsert etter europeiske standarder, med transparent engangspris, trygg betaling og 30 dagers pengene-tilbake-garanti. En enkel, lavrisiko måte å støtte forbrenning og energi på." },
-    { "@type": "FAQPage", "mainEntity": [
-      { "@type": "Question", "name": "Er RetaFit seriøst?", "acceptedAnswer": { "@type": "Answer", "text": "Ja. RetaFit er et ekte produkt som selges gjennom den offisielle butikken med trygg, kryptert betaling, tydelig engangspris (ingen skjult abonnement) og 30 dagers pengene-tilbake-garanti. Det leveres i Norge og resten av Europa." } },
-      { "@type": "Question", "name": "Hva liker folk ved RetaFit?", "acceptedAnswer": { "@type": "Answer", "text": "At den er 100 % naturlig og vegansk, at det bare er én enkel kapsel om dagen, at det er et engangskjøp uten abonnement, og at den har 30 dagers pengene-tilbake-garanti i ryggen." } },
-      { "@type": "Question", "name": "Er RetaFit trygt?", "acceptedAnswer": { "@type": "Answer", "text": "RetaFit er et kosttilskudd laget av naturlige ingredienser etter strenge europeiske standarder. Det inneholder koffein, så det passer ikke for barn eller gravide/ammende; har du en helsetilstand eller bruker medisiner, snakk med lege først." } },
-      { "@type": "Question", "name": "Hvor får jeg best pris?", "acceptedAnswer": { "@type": "Answer", "text": "I den offisielle butikken, via bestillingssiden — 5-flaskers pakken er best verdi til 381 kr per flaske med gratis frakt, og alt er dekket av 30 dagers garantien." } },
-      { "@type": "Question", "name": "Var RetaFit med i Løvens hule?", "acceptedAnswer": { "@type": "Answer", "text": "Vi har ingen kommentar til praten rundt Løvens hule — vi verken bekrefter eller avkrefter den, og vi fremsetter ingen TV-baserte påstander. Vurder RetaFit på ingrediensene, den transparente engangsprisen og 30 dagers pengene-tilbake-garantien. Les hele vår offisielle holdning på faktasjekk-siden." } },
-      { "@type": "Question", "name": "Er RetaFit svindel?", "acceptedAnswer": { "@type": "Answer", "text": "Nei. RetaFit er et ekte produkt som selges gjennom den offisielle butikken med kryptert betaling, tydelig engangspris og 30 dagers pengene-tilbake-garanti. Den reelle risikoen er kopisider og uoffisielle videreselgere — bestill derfor kun gjennom den offisielle butikken." } },
-      { "@type": "Question", "name": "Leter du etter retatrutide erfaringer?", "acceptedAnswer": { "@type": "Answer", "text": "Da skal du vite dette: erfaringer med retatrutide gjelder legemiddelet, som kun finnes som injeksjon i kliniske studier og ikke er godkjent. RetaFit er et annet, 100 % naturlig produkt — en reseptfri kapsel som støtter forbrenning og vektkontroll. Erfaringene på denne siden handler om kapselen, ikke medisinen." } },
-      { "@type": "Question", "name": "Hva med RetaFit på Trustpilot og i norske forum?", "acceptedAnswer": { "@type": "Answer", "text": "RetaFit er et nytt merke, så det finnes få innlegg på Trustpilot og i norske forum ennå. Vårt råd: døm på det som kan verifiseres — ingrediensene, den transparente engangsprisen, den krypterte betalingen og 30 dagers pengene-tilbake-garantien." } }
-    ]}
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hjem",
+          "item": "https://tryretafit.com/no/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "RetaFit Erfaringer",
+          "item": "https://tryretafit.com/no/anmeldelser/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "name": "RetaFit",
+      "image": "https://tryretafit.com/assets/img/bottle.webp",
+      "brand": {
+        "@type": "Brand",
+        "name": "RetaFit"
+      },
+      "category": "Dietary supplement",
+      "description": "RetaFit er en 100 % naturlig, vegansk daglig forbrenningskapsel.",
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.7",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "RetaFit editorial"
+        },
+        "datePublished": "2026-07-17",
+        "reviewBody": "RetaFit er en enkel, ren daglig forbrenningskapsel — vegansk, 100 % naturlig, produsert etter europeiske standarder, med transparent engangspris, trygg betaling og 30 dagers pengene-tilbake-garanti. En enkel, lavrisiko måte å støtte forbrenning og energi på."
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "NOK",
+        "lowPrice": "1206",
+        "highPrice": "1905",
+        "offerCount": "3",
+        "availability": "https://schema.org/InStock",
+        "url": "https://tryretafit.com/no/kjop/",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "57",
+            "currency": "NOK"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "NO"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": "1",
+              "maxValue": "2",
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": "3",
+              "maxValue": "7",
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "NO",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": "30",
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Er RetaFit seriøst?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. RetaFit er et ekte produkt som selges gjennom den offisielle butikken med trygg, kryptert betaling, tydelig engangspris (ingen skjult abonnement) og 30 dagers pengene-tilbake-garanti. Det leveres i Norge og resten av Europa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hva liker folk ved RetaFit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At den er 100 % naturlig og vegansk, at det bare er én enkel kapsel om dagen, at det er et engangskjøp uten abonnement, og at den har 30 dagers pengene-tilbake-garanti i ryggen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Er RetaFit trygt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RetaFit er et kosttilskudd laget av naturlige ingredienser etter strenge europeiske standarder. Det inneholder koffein, så det passer ikke for barn eller gravide/ammende; har du en helsetilstand eller bruker medisiner, snakk med lege først."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor får jeg best pris?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I den offisielle butikken, via bestillingssiden — 5-flaskers pakken er best verdi til 381 kr per flaske med gratis frakt, og alt er dekket av 30 dagers garantien."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Var RetaFit med i Løvens hule?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vi har ingen kommentar til praten rundt Løvens hule — vi verken bekrefter eller avkrefter den, og vi fremsetter ingen TV-baserte påstander. Vurder RetaFit på ingrediensene, den transparente engangsprisen og 30 dagers pengene-tilbake-garantien. Les hele vår offisielle holdning på faktasjekk-siden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Er RetaFit svindel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nei. RetaFit er et ekte produkt som selges gjennom den offisielle butikken med kryptert betaling, tydelig engangspris og 30 dagers pengene-tilbake-garanti. Den reelle risikoen er kopisider og uoffisielle videreselgere — bestill derfor kun gjennom den offisielle butikken."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Leter du etter retatrutide erfaringer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da skal du vite dette: erfaringer med retatrutide gjelder legemiddelet, som kun finnes som injeksjon i kliniske studier og ikke er godkjent. RetaFit er et annet, 100 % naturlig produkt — en reseptfri kapsel som støtter forbrenning og vektkontroll. Erfaringene på denne siden handler om kapselen, ikke medisinen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hva med RetaFit på Trustpilot og i norske forum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RetaFit er et nytt merke, så det finnes få innlegg på Trustpilot og i norske forum ennå. Vårt råd: døm på det som kan verifiseres — ingrediensene, den transparente engangsprisen, den krypterte betalingen og 30 dagers pengene-tilbake-garantien."
+          }
+        }
+      ]
+    }
   ]
 }
 </script>
