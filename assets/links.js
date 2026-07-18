@@ -1,7 +1,6 @@
 /* tryretafit.com — central redirect table. Each /go/ page reads its geo's outbound
    `base` from here and appends ?sub1 = gclid (paid) || the organic geo tag (retafit{geo}).
-   To change a geo's offer link, edit ONLY its `base`. Real affiliate URL never in page DOM.
-   Network: slmw4qtrk / ZZ2GX (same Everflow net as Ozem+). RetaFit $70 CPA, straight sale. */
+   To change a geo's offer link, edit ONLY its `base`. Real affiliate URL never in page DOM. */
 window.RETAFIT_LINKS = {
   uk: { base: "https://www.slmw4qtrk.com/ZZ2GX/KXX4NM/", org: "retafituk" }, /* offer 342 */
   de: { base: "https://www.slmw4qtrk.com/ZZ2GX/KWJ7Z2/", org: "retafitde" }, /* offer 341 DE/AT/CH */

@@ -7,24 +7,24 @@
     <head>
       <meta charset="utf-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
-      <title>Sitemap · Osanix</title>
+      <title>Sitemap · RetaFit</title>
       <style>
         body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#14232e;background:#f4f7fa;margin:0;padding:32px 16px}
         .wrap{max-width:860px;margin:0 auto;background:#fff;border:1px solid #e5ecf1;border-radius:14px;padding:26px 28px;box-shadow:0 2px 6px rgba(20,35,46,.06)}
         h1{font-size:24px;margin:0 0 4px}
         p.sub{color:#4c5b66;margin:0 0 20px}
-        .mk{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:7px;background:linear-gradient(135deg,#22557a,#164060);color:#fff;font-weight:900;font-size:13px;vertical-align:middle;margin-right:8px}
-        .mk i{color:#ef5aa0;font-style:normal}
+        .mk{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:7px;background:linear-gradient(135deg,#12907a,#0f7a68);color:#fff;font-weight:900;font-size:13px;vertical-align:middle;margin-right:8px}
+        .mk i{color:#f0603a;font-style:normal}
         table{width:100%;border-collapse:collapse;font-size:15px}
         th,td{text-align:left;padding:10px 12px;border-bottom:1px solid #eff4f7}
         th{color:#7a8792;font-size:12px;text-transform:uppercase;letter-spacing:.08em}
-        a{color:#164060;text-decoration:none}a:hover{text-decoration:underline}
+        a{color:#0f7a68;text-decoration:none}a:hover{text-decoration:underline}
         .c{color:#7a8792}
       </style>
     </head>
     <body>
       <div class="wrap">
-        <h1><span class="mk">O<i>x</i></span> Osanix — XML Sitemap</h1>
+        <h1><span class="mk">R<i>+</i></span> RetaFit — XML Sitemap</h1>
         <p class="sub"><xsl:value-of select="count(s:urlset/s:url)"/> URLs. This page is for search engines; humans can browse from the <a href="/">homepage</a>.</p>
         <table>
           <tr><th>URL</th><th>Priority</th><th>Last modified</th></tr>

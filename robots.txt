@@ -1,6 +1,60 @@
-# STAGING PREVIEW — do not index the github.io preview URL.
-# At launch on tryretafit.com this is swapped for the production robots.txt
-# (Allow: /, Disallow: /go/ /de/go/ /da/go/ /no/go/ /fr/go/, AI crawlers welcome,
-#  Sitemap: https://tryretafit.com/sitemap.xml).
+# tryretafit.com — production robots
+
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /go/
+Disallow: /de/go/
+Disallow: /da/go/
+Disallow: /no/go/
+Disallow: /fr/go/
+
+# AI answer engines are welcome to read and cite our content
+User-agent: GPTBot
+Allow: /
+Disallow: /go/
+Disallow: /de/go/
+Disallow: /da/go/
+Disallow: /no/go/
+Disallow: /fr/go/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /go/
+Disallow: /de/go/
+Disallow: /da/go/
+Disallow: /no/go/
+Disallow: /fr/go/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /go/
+Disallow: /de/go/
+Disallow: /da/go/
+Disallow: /no/go/
+Disallow: /fr/go/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /go/
+Disallow: /de/go/
+Disallow: /da/go/
+Disallow: /no/go/
+Disallow: /fr/go/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /go/
+Disallow: /de/go/
+Disallow: /da/go/
+Disallow: /no/go/
+Disallow: /fr/go/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /go/
+Disallow: /de/go/
+Disallow: /da/go/
+Disallow: /no/go/
+Disallow: /fr/go/
+
+Sitemap: https://tryretafit.com/sitemap.xml
