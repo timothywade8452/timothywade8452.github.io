@@ -32,36 +32,197 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "Organization", "@id": "https://tryretafit.com/#org", "name": "RetaFit", "url": "https://tryretafit.com/", "logo": "https://tryretafit.com/icon-512.png", "email": "kontakt@tryretafit.com" },
-    { "@type": "WebSite", "@id": "https://tryretafit.com/#website", "url": "https://tryretafit.com/", "name": "RetaFit Official", "publisher": { "@id": "https://tryretafit.com/#org" }, "inLanguage": "en" },
-    { "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tryretafit.com/" } ] },
-    { "@type": "Product", "@id": "https://tryretafit.com/#product", "name": "RetaFit",
+    {
+      "@type": "Organization",
+      "@id": "https://tryretafit.com/#org",
+      "name": "RetaFit",
+      "url": "https://tryretafit.com/",
+      "logo": "https://tryretafit.com/icon-512.png",
+      "email": "kontakt@tryretafit.com"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tryretafit.com/#website",
+      "url": "https://tryretafit.com/",
+      "name": "RetaFit Official",
+      "publisher": {
+        "@id": "https://tryretafit.com/#org"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://tryretafit.com/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://tryretafit.com/#product",
+      "name": "RetaFit",
       "image": "https://tryretafit.com/assets/img/bottle.webp",
       "description": "RetaFit is a 100% natural, vegan daily capsule that supports normal energy-yielding metabolism, fat metabolism and weight management, with niacin, green tea, guarana and N-acetyl-L-carnitine.",
-      "brand": { "@type": "Brand", "name": "RetaFit" }, "category": "Dietary supplement",
-      "review": { "@type": "Review",
-        "reviewRating": { "@type": "Rating", "ratingValue": "4.7", "bestRating": "5" },
-        "author": { "@type": "Organization", "name": "RetaFit editorial" },
-        "reviewBody": "A clean, plant-forward daily metabolism capsule with transparent one-time pricing, secure checkout and a 30-day money-back guarantee. Easy to take, vegan, and produced to European standards." },
-      "offers": { "@type": "AggregateOffer", "priceCurrency": "GBP", "lowPrice": "73.85", "highPrice": "129.00", "offerCount": "3",
-        "availability": "https://schema.org/InStock", "url": "https://tryretafit.com/buy/",
-        "shippingDetails": { "@type": "OfferShippingDetails",
-          "shippingRate": { "@type": "MonetaryAmount", "value": "4.95", "currency": "GBP" },
-          "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "GB" },
-          "deliveryTime": { "@type": "ShippingDeliveryTime",
-            "handlingTime": { "@type": "QuantitativeValue", "minValue": "1", "maxValue": "2", "unitCode": "DAY" },
-            "transitTime": { "@type": "QuantitativeValue", "minValue": "3", "maxValue": "7", "unitCode": "DAY" } } },
-        "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "GB",
+      "brand": {
+        "@type": "Brand",
+        "name": "RetaFit"
+      },
+      "category": "Dietary supplement",
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.7",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "RetaFit editorial"
+        },
+        "reviewBody": "A clean, plant-forward daily metabolism capsule with transparent one-time pricing, secure checkout and a 30-day money-back guarantee. Easy to take, vegan, and produced to European standards."
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "GBP",
+        "lowPrice": "73.85",
+        "highPrice": "129.00",
+        "offerCount": "3",
+        "availability": "https://schema.org/InStock",
+        "url": "https://tryretafit.com/buy/",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "4.95",
+            "currency": "GBP"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "GB"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": "1",
+              "maxValue": "2",
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": "3",
+              "maxValue": "7",
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "GB",
           "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-          "merchantReturnDays": "30", "returnMethod": "https://schema.org/ReturnByMail", "returnFees": "https://schema.org/FreeReturn" } } },
-    { "@type": "FAQPage", "mainEntity": [
-      { "@type": "Question", "name": "What is RetaFit?", "acceptedAnswer": { "@type": "Answer", "text": "RetaFit is a 100% natural, vegan daily capsule that supports normal energy-yielding metabolism, fat metabolism and weight management. It combines niacin with botanicals such as green tea and guarana plus N-acetyl-L-carnitine, in one easy capsule a day." } },
-      { "@type": "Question", "name": "Is RetaFit legit?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. RetaFit is a genuine product sold through its official store with secure checkout, clear one-time pricing (no hidden subscription) and a 30-day money-back guarantee. It ships across the UK and EU." } },
-      { "@type": "Question", "name": "Does RetaFit work?", "acceptedAnswer": { "@type": "Answer", "text": "RetaFit is formulated to support your normal energy-yielding metabolism and to help reduce tiredness and fatigue (niacin), with natural botanicals for everyday support. Taken daily alongside a balanced lifestyle, it's an easy way to support your metabolism and energy goals." } },
-      { "@type": "Question", "name": "How do I take RetaFit?", "acceptedAnswer": { "@type": "Answer", "text": "Take one capsule per day with a glass of water, ideally in the morning with food. One capsule daily is all you need." } },
-      { "@type": "Question", "name": "How much does RetaFit cost and where can I buy it?", "acceptedAnswer": { "@type": "Answer", "text": "A single 30-day bottle is £73.85; the 3-bottle bundle is £99.00 and the 5-bottle bundle is £129.00 (best value, £25.80 per bottle) with free shipping. RetaFit is available from the official store with a 30-day money-back guarantee." } }
-    ]}
+          "merchantReturnDays": "30",
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is RetaFit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RetaFit is a 100% natural, vegan daily capsule that supports normal energy-yielding metabolism, fat metabolism and weight management. It combines niacin with botanicals such as green tea and guarana plus N-acetyl-L-carnitine — one easy capsule a day."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is RetaFit legit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. RetaFit is a genuine product sold through its official store with secure checkout, clear one-time pricing (no hidden subscription) and a 30-day money-back guarantee. It ships across the UK and EU."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does RetaFit work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RetaFit is formulated to support your normal energy-yielding metabolism and to help reduce tiredness and fatigue (niacin), with natural botanicals for everyday support. Taken daily alongside a balanced lifestyle, it's an easy way to support your metabolism and energy goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "RetaFit dosage — how do I take it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The recommended RetaFit dosage is one capsule per day with a glass of water, ideally in the morning with food; do not exceed one capsule daily."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does RetaFit cost and where can I buy it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single 30-day bottle is £73.85; the 3-bottle bundle is £99.00 and the 5-bottle bundle is £129.00 (best value — £25.80/bottle, free shipping). Order from the official store with a 30-day money-back guarantee via the order page."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I buy RetaFit at Boots, Holland & Barrett or Amazon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No — RetaFit is sold exclusively through its official online store. It isn't stocked at Boots, Holland & Barrett, Superdrug or Amazon, and buying from the official store is the only way to get the genuine formula, official bundle pricing and the 30-day money-back guarantee — and to avoid counterfeit or resold stock."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does RetaFit have side effects?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RetaFit is a natural formula that's generally well tolerated. It does contain caffeine, so if you're caffeine-sensitive or drink a lot of coffee you may notice mild restlessness — take it in the morning and adjust your coffee intake. It's not suitable for children or pregnant/breastfeeding women, and if you take medication or have a health condition, check with your doctor first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a RetaFit discount code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There are no genuine RetaFit voucher codes in circulation — third-party \"coupon\" sites are best avoided. The real discount is the official bundle pricing: the 5-bottle bundle drops the price to £25.80 per bottle (save 44%) with free shipping, directly from the official store."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you buy retatrutide in the UK?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Retatrutide is an experimental, injection-only drug that is still in clinical trials — it isn’t approved and can’t legally be bought in the UK, and ‘reta pills’ claiming to be the drug are unverified. RetaFit is different: a natural, over-the-counter capsule that supports metabolism, energy and weight management. It is not the drug and doesn’t contain it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there an over-the-counter Ozempic alternative?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you’re searching for an Ozempic alternative over the counter or a Wegovy alternative over the counter, here’s the honest answer: no supplement is a drug, and RetaFit isn’t a drug and doesn’t replace one. What it offers is a legal, natural, no-prescription capsule that supports your metabolism, everyday energy and weight management — an easy daily habit you can start today."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a prescription for RetaFit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. RetaFit is a food supplement, not a medicine, so no prescription is needed — simply order from the official online store and it’s delivered to your door."
+          }
+        }
+      ]
+    }
   ]
 }
 </script>
@@ -189,6 +350,15 @@
     </div>
   </section>
 
+  <section id="reta">
+    <h2 class="reveal">Searching for ‘reta pills’? Here’s the honest answer</h2>
+    <p class="lede reveal">The reta weight loss trend is everywhere — here’s what’s real, and what you can actually buy today.</p>
+    <p class="reveal">‘Reta’ is short for retatrutide — an experimental drug that exists only as an injection, is still in clinical trials, isn’t approved anywhere and can’t legally be bought. That means any ‘reta pills’ or reta tablets claiming to be the drug online are unverified and often inert. RetaFit is upfront about being different: it is <b>not</b> retatrutide and doesn’t contain it. It’s a legal, 100% natural, vegan capsule — no prescription needed — formulated to support your metabolism, everyday energy and weight management.</p>
+    <h3 class="reveal" style="margin-top:14px">Reta pills or injection — what’s the actual difference?</h3>
+    <p class="reveal">The injection is a trial-only drug you can’t buy; pills claiming to be that drug are unverified. RetaFit sits in a different, honest category: a natural food supplement you take once a day, produced to strict European standards, with transparent one-time pricing and a 30-day money-back guarantee. The same goes if you’re hunting for an Ozempic alternative over the counter or a Wegovy alternative over the counter — no supplement is a drug or a replacement for one, and RetaFit doesn’t claim to be. It’s simply the easy, legal way to support your metabolism, energy and weight-management goals every day.</p>
+    <div class="cta-row reveal"><a href="/go/" class="cta">Get the natural capsule <span class="arw">→</span></a></div>
+  </section>
+
   <section id="packages">
     <h2 class="reveal">Choose your RetaFit package</h2>
     <p class="lede reveal">One-time purchase · free shipping on bundles · 30-day money-back guarantee.</p>
@@ -233,8 +403,14 @@
       <details open><summary>What is RetaFit?</summary><div>RetaFit is a 100% natural, vegan daily capsule that supports normal energy-yielding metabolism, fat metabolism and weight management. It combines niacin with botanicals such as green tea and guarana plus N-acetyl-L-carnitine — one easy capsule a day.</div></details>
       <details><summary>Is RetaFit legit?</summary><div>Yes. RetaFit is a genuine product sold through its official store with secure checkout, clear one-time pricing (no hidden subscription) and a 30-day money-back guarantee. It ships across the UK and EU.</div></details>
       <details><summary>Does RetaFit work?</summary><div>RetaFit is formulated to support your normal energy-yielding metabolism and to help reduce tiredness and fatigue (niacin), with natural botanicals for everyday support. Taken daily alongside a balanced lifestyle, it's an easy way to support your metabolism and energy goals.</div></details>
-      <details><summary>How do I take it?</summary><div>Take one capsule per day with a glass of water, ideally in the morning with food. One capsule daily is all you need.</div></details>
-      <details><summary>How much does it cost and where do I buy it?</summary><div>A single 30-day bottle is £73.85; the 3-bottle bundle is £99.00 and the 5-bottle bundle is £129.00 (best value — £25.80/bottle, free shipping). Order from the official store with a 30-day money-back guarantee via the <a href="/buy/">order page</a>.</div></details>
+      <details><summary>RetaFit dosage — how do I take it?</summary><div>The recommended RetaFit dosage is one capsule per day with a glass of water, ideally in the morning with food; do not exceed one capsule daily.</div></details>
+      <details><summary>How much does RetaFit cost and where can I buy it?</summary><div>A single 30-day bottle is £73.85; the 3-bottle bundle is £99.00 and the 5-bottle bundle is £129.00 (best value — £25.80/bottle, free shipping). Order from the official store with a 30-day money-back guarantee via the <a href="/buy/">order page</a>.</div></details>
+      <details><summary>Can I buy RetaFit at Boots, Holland &amp; Barrett or Amazon?</summary><div>No — RetaFit is sold exclusively through its official online store. It isn't stocked at Boots, Holland &amp; Barrett, Superdrug or Amazon, and buying from the official store is the only way to get the genuine formula, official bundle pricing and the 30-day money-back guarantee — and to avoid counterfeit or resold stock.</div></details>
+      <details><summary>Does RetaFit have side effects?</summary><div>RetaFit is a natural formula that's generally well tolerated. It does contain caffeine, so if you're caffeine-sensitive or drink a lot of coffee you may notice mild restlessness — take it in the morning and adjust your coffee intake. It's not suitable for children or pregnant/breastfeeding women, and if you take medication or have a health condition, check with your doctor first.</div></details>
+      <details><summary>Is there a RetaFit discount code?</summary><div>There are no genuine RetaFit voucher codes in circulation — third-party "coupon" sites are best avoided. The real discount is the official bundle pricing: the 5-bottle bundle drops the price to £25.80 per bottle (save 44%) with free shipping, directly from the official store.</div></details>
+      <details><summary>Can you buy retatrutide in the UK?</summary><div>No. Retatrutide is an experimental, injection-only drug that is still in clinical trials — it isn’t approved and can’t legally be bought in the UK, and ‘reta pills’ claiming to be the drug are unverified. RetaFit is different: a natural, over-the-counter capsule that supports metabolism, energy and weight management. It is not the drug and doesn’t contain it.</div></details>
+      <details><summary>Is there an over-the-counter Ozempic alternative?</summary><div>If you’re searching for an Ozempic alternative over the counter or a Wegovy alternative over the counter, here’s the honest answer: no supplement is a drug, and RetaFit isn’t a drug and doesn’t replace one. What it offers is a legal, natural, no-prescription capsule that supports your metabolism, everyday energy and weight management — an easy daily habit you can start today.</div></details>
+      <details><summary>Do I need a prescription for RetaFit?</summary><div>No. RetaFit is a food supplement, not a medicine, so no prescription is needed — simply order from the official online store and it’s delivered to your door.</div></details>
     </div>
   </section>
 
@@ -273,7 +449,7 @@
         <div class="brand" style="color:#fff;margin-bottom:8px"><span class="mk">R<i>+</i></span> RetaFit™ Official</div>
         <div class="byline">Metabolism · energy · weight management.</div>
       </div>
-      <div><a href="/reviews/">Reviews</a><a href="/buy/">Order</a><a href="/contact.html">Contact</a></div>
+      <div><a href="/reviews/">Reviews</a><a href="/buy/">Order</a><a href="/dragons-den/">Dragons' Den</a><a href="/contact.html">Contact</a></div>
       <div><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/disclaimer.html">Disclaimer</a></div>
       <div><a href="/">EN</a><a href="/de/">DE</a><a href="/da/">DK</a><a href="/no/">NO</a><a href="/fr/">FR</a></div>
     </div>
