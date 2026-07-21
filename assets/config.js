@@ -4,7 +4,7 @@
    else the organic geo tag (retafituk / retafitde / retafitdk / retafitno / retafitfr). */
 (function () {
   "use strict";
-  var KEYS = ["gclid", "fbclid", "ttclid", "msclkid", "utm_source", "utm_medium", "utm_campaign"];
+  var KEYS = ["gclid", "gbraid", "wbraid", "fbclid", "ttclid", "msclkid", "utm_source", "utm_medium", "utm_campaign"];
   try {
     var q = new URLSearchParams(location.search);
     var s = JSON.parse(localStorage.getItem("rf_track") || "{}");
