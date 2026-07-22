@@ -2,29 +2,30 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- EN (UK, root) -->
-  <url><loc>https://tryretafit.com/</loc><lastmod>2026-07-21</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://tryretafit.com/reviews/</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://tryretafit.com/buy/</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tryretafit.com/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://tryretafit.com/reviews/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tryretafit.com/buy/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <!-- DE / AT / CH -->
-  <url><loc>https://tryretafit.com/de/</loc><lastmod>2026-07-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://tryretafit.com/de/erfahrungen/</loc><lastmod>2026-07-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tryretafit.com/de/kaufen/</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tryretafit.com/de/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tryretafit.com/de/erfahrungen/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tryretafit.com/de/kaufen/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <!-- DK -->
-  <url><loc>https://tryretafit.com/da/</loc><lastmod>2026-07-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://tryretafit.com/da/anmeldelser/</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tryretafit.com/da/koeb/</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tryretafit.com/da/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tryretafit.com/da/anmeldelser/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tryretafit.com/da/koeb/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <!-- NO -->
-  <url><loc>https://tryretafit.com/no/</loc><lastmod>2026-07-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://tryretafit.com/no/anmeldelser/</loc><lastmod>2026-07-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tryretafit.com/no/kjop/</loc><lastmod>2026-07-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tryretafit.com/no/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tryretafit.com/no/anmeldelser/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tryretafit.com/no/kjop/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <!-- FR -->
-  <url><loc>https://tryretafit.com/fr/</loc><lastmod>2026-07-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://tryretafit.com/fr/avis/</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tryretafit.com/fr/acheter/</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tryretafit.com/fr/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tryretafit.com/fr/avis/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tryretafit.com/fr/acheter/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <!-- TV-buzz fact-check pages -->
-  <url><loc>https://tryretafit.com/dragons-den/</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tryretafit.com/de/hoehle-der-loewen/</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tryretafit.com/da/loevens-hule/</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tryretafit.com/no/lovens-hule/</loc><lastmod>2026-07-21</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tryretafit.com/fr/qui-veut-etre-mon-associe/</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tryretafit.com/dragons-den/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tryretafit.com/de/hoehle-der-loewen/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://tryretafit.com/de/reta-3/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tryretafit.com/da/loevens-hule/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tryretafit.com/no/lovens-hule/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tryretafit.com/fr/qui-veut-etre-mon-associe/</loc><lastmod>2026-07-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 </urlset>
